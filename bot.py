@@ -573,7 +573,7 @@ def check_comm(nick, link):
 	chrome_options.add_argument('--no-sandbox')
 	chrome_options.add_argument('--disable-dev-shm-usage')
 	#driver = webdriver.Chrome(executable_path='/usr/local/bin/chromedriver', chrome_options=chrome_options)
-	driver = webdriver.Chrome(executable_path='/usr/local/bin/bot/chromedriver', chrome_options=chrome_options)
+	driver = webdriver.Chrome(executable_path='/home/pupkin/usr/bot/chromedriver', chrome_options=chrome_options)
 	#driver.get("https://www.instagram.com/accounts/login")
 #
 	#inputElement = driver.find_element_by_name("username")
